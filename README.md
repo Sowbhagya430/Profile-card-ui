@@ -12,3 +12,9 @@ This is a simple, elegant *Profile Card UI* built using *HTML5 and CSS3*. It dem
 - *HTML5*
 - *CSS3*
 
+ ## 📂 How to Use
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/Sowbhagya430/Profile-card-ui.git
+
