@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Card</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+
+  .card h2 {
+    margin: 10px 0;
+    color: #333;
+  }
+
+  .card p {
+    margin: 5px 0;
+    color: #777;
+  }
+
+  /* Responsive */
+  @media (max-width: 500px) {
+    .card {
+      padding: 20px;
+      margin: 10px;
+    }
+
+    .card img {
+      width: 90px;
+      height: 90px;
+    }
+
+    .card h2 {
+      font-size: 20px;
+    }
+  }
+</style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/100" alt="Avatar" class="avatar">
+        <h2>Sowbhagya Vadde</h2>
+        <p>Python Full Stack Developer</p>
+        <p>sowbhagya.v430@gmail.com</p>
+    </div>
+</body>
+</html>
