@@ -1,5 +1,25 @@
-## 🚀 How to Use
+### ✅ .gitignore
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/Sowbhagya430/Profile-card-ui.git
+Since this is a *simple HTML/CSS project*, the .gitignore can be minimal. But for completeness, here's a good one:
+
+```gitignore
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore backup files
+*.log
+*.tmp
+*.bak
+
+# macOS
+__MACOSX/
+
+# Windows
+desktop.ini
+
+# Node modules (in case you add JS tooling later)
+node_module
